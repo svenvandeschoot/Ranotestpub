@@ -126,6 +126,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>af080ae5-a911-4d4f-881d-00485bb41b4e</id>
     </Compile>
+    <Compile Include="Pauze.cs">
+      <BoundTo>962fe622-b0ef-45d4-b769-02f1e2c6eb8a</BoundTo>
+      <DependentUpon>Pauze.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e9621126-83b0-4d81-a607-6cf9a3c0c1fc</id>
+    </Compile>
+    <Compile Include="Pauze.UserCode.cs">
+      <BoundTo>962fe622-b0ef-45d4-b769-02f1e2c6eb8a</BoundTo>
+      <DependentUpon>Pauze.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3bf1c9b-2347-4222-b713-fb66518030d9</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>5a631c55-185e-4d8f-b6aa-e84db07d6bda</id>
     </Compile>
@@ -178,6 +190,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>11f6a98a-fb6a-41dd-b327-13b55b09c30d</id>
+    </None>
+    <None Include="Pauze.rxrec">
+      <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>
+      <id>962fe622-b0ef-45d4-b769-02f1e2c6eb8a</id>
+      <recordtableid>6dd85fa2-e383-485d-9e19-15d195d673d8</recordtableid>
     </None>
     <None Include="RecordingsOpleidingsAanbod\controleerKuLeuvenWebsite.rxrec">
       <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>

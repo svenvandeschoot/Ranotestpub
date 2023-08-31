@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6dd85fa2-e383-485d-9e19-15d195d673d8"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Pauze"
+	namespace="TwoSimpleThings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="4000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="572d783b-01f9-45f9-8dbf-03e9dedf67e2"
+	name="TwoSimpleThingsRepository"
+	relativepath="TwoSimpleThingsRepository.rxrep">
+		<codegen
+		classname="TwoSimpleThingsRepository"
+		namespace="TwoSimpleThings">
+		</codegen>
+		<rootfolder
+		id="9ef8969e-dc14-4d17-8dba-357326284176"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Pauze.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

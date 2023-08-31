@@ -49,6 +49,12 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="8ebb5e1e-e47f-4cdd-9fa4-a165f5afb42c"
+			name="Pauze"
+			ref="6dd85fa2-e383-485d-9e19-15d195d673d8"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="92443cc2-247b-4498-a531-124995da66e8"
 			name="openKuLeuvenWebsite"
 			ref="5fe521b4-2774-4f01-8144-2f85af5a6202"
@@ -84,6 +90,10 @@
 						<testmodule
 						id="92443cc2-247b-4498-a531-124995da66e8"
 						name="openKuLeuvenWebsite">
+						</testmodule>
+						<testmodule
+						id="8ebb5e1e-e47f-4cdd-9fa4-a165f5afb42c"
+						name="Pauze">
 						</testmodule>
 						<testmodule
 						id="5b7a80f1-ce8d-40df-918e-a972d2d97a36"
