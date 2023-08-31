@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6439C3F1-5B14-4D8E-BF97-61A5E55FC87D}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TwoSimpleThings</RootNamespace>
+    <AssemblyName>TwoSimpleThings</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>25fa4ebe-2910-4813-92c7-db38e689f03b</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>af080ae5-a911-4d4f-881d-00485bb41b4e</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>5a631c55-185e-4d8f-b6aa-e84db07d6bda</id>
+    </Compile>
+    <Compile Include="RecordingsOpleidingsAanbod\codeCollectionKuLeuvenOpleidingen.cs">
+      <id>cd8383b7-ce03-441c-bf28-4e23bdde7fe4</id>
+    </Compile>
+    <Compile Include="RecordingsOpleidingsAanbod\controleerKuLeuvenWebsite.cs">
+      <BoundTo>83e2a998-e452-4fa2-a4ef-1b1aa359c0bf</BoundTo>
+      <DependentUpon>controleerKuLeuvenWebsite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4364d192-16a5-4883-b308-ce2560641954</id>
+    </Compile>
+    <Compile Include="RecordingsOpleidingsAanbod\controleerKuLeuvenWebsite.UserCode.cs">
+      <BoundTo>83e2a998-e452-4fa2-a4ef-1b1aa359c0bf</BoundTo>
+      <DependentUpon>controleerKuLeuvenWebsite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e7062d60-5835-44dc-a76a-20b4ba354e5c</id>
+    </Compile>
+    <Compile Include="RecordingsOpleidingsAanbod\openKuLeuvenWebsite.cs">
+      <BoundTo>f4cb1256-9496-4b00-a1b5-032829943733</BoundTo>
+      <DependentUpon>openKuLeuvenWebsite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1d36990a-e34e-4f83-adad-d6e538068301</id>
+    </Compile>
+    <Compile Include="RecordingsOpleidingsAanbod\openKuLeuvenWebsite.UserCode.cs">
+      <BoundTo>f4cb1256-9496-4b00-a1b5-032829943733</BoundTo>
+      <DependentUpon>openKuLeuvenWebsite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b97fa81e-8472-4c21-a7b8-8926a172a5a8</id>
+    </Compile>
+    <Compile Include="RecordingsOpleidingsAanbod\sluitKuLeuvenWebsite.cs">
+      <BoundTo>32c3c7a0-bfe7-42ab-a047-e9cd86a1e80f</BoundTo>
+      <DependentUpon>sluitKuLeuvenWebsite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be20242c-2b92-4593-a331-10ccbe4cf0d2</id>
+    </Compile>
+    <Compile Include="RecordingsOpleidingsAanbod\sluitKuLeuvenWebsite.UserCode.cs">
+      <BoundTo>32c3c7a0-bfe7-42ab-a047-e9cd86a1e80f</BoundTo>
+      <DependentUpon>sluitKuLeuvenWebsite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3fa048e0-935c-4f46-93c8-83fbf66dcb2b</id>
+    </Compile>
+    <Compile Include="TwoSimpleThingsRepository.cs">
+      <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>
+      <DependentUpon>TwoSimpleThingsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>a03ade0a-37c2-406f-9a74-0c3f75635f7a</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>11f6a98a-fb6a-41dd-b327-13b55b09c30d</id>
+    </None>
+    <None Include="RecordingsOpleidingsAanbod\controleerKuLeuvenWebsite.rxrec">
+      <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>
+      <id>83e2a998-e452-4fa2-a4ef-1b1aa359c0bf</id>
+      <recordtableid>7e693ae9-2099-4cab-a825-dc4ee4894701</recordtableid>
+    </None>
+    <None Include="RecordingsOpleidingsAanbod\openKuLeuvenWebsite.rxrec">
+      <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>
+      <id>f4cb1256-9496-4b00-a1b5-032829943733</id>
+      <recordtableid>5fe521b4-2774-4f01-8144-2f85af5a6202</recordtableid>
+    </None>
+    <None Include="RecordingsOpleidingsAanbod\sluitKuLeuvenWebsite.rxrec">
+      <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>
+      <id>32c3c7a0-bfe7-42ab-a047-e9cd86a1e80f</id>
+      <recordtableid>212e3491-20e4-406e-939a-4b3a4b0bc473</recordtableid>
+    </None>
+    <None Include="TwoSimpleThingsRepository.rximg">
+      <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>
+      <DependentUpon>TwoSimpleThingsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>85814d31-99c6-456d-962c-1f3b31e7267c</id>
+    </None>
+    <None Include="TwoSimpleThingsRepository.rxrep">
+      <id>25fa4ebe-2910-4813-92c7-db38e689f03b</id>
+      <repoid>572d783b-01f9-45f9-8dbf-03e9dedf67e2</repoid>
+      <reporootid>9ef8969e-dc14-4d17-8dba-357326284176</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TwoSimpleThings.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6765d5d3-7eb3-4d90-9be3-019fe87798cc</id>
+    </Content>
+    <Content Include="TwoSimpleThings.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f7c4bdd6-fc12-46c8-9be0-25d1cd5d3d7b</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RecordingsOpleidingsAanbod">
+      <id>1c0cfd80-3f05-403c-9d55-5101412b9637</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

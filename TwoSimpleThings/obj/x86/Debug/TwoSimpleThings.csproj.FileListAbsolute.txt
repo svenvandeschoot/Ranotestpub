@@ -1,0 +1,36 @@
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\bin\Debug\TwoSimpleThings.rxtmg
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\bin\Debug\TwoSimpleThings.rxtst
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\bin\Debug\TwoSimpleThings.exe.config
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\bin\Debug\TwoSimpleThings.xml
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\bin\Debug\TwoSimpleThings.exe
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\bin\Debug\TwoSimpleThings.pdb
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.CoreCompileInputs.cache
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.CopyComplete
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.exe
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.pdb
+C:\Workdir\MyApps\gitFolders\TwoSimpleThings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.AssemblyReference.cache
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.rxtmg
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.rxtst
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.exe.config
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.xml
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.exe
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.pdb
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.AssemblyReference.cache
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.CoreCompileInputs.cache
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.CopyComplete
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.exe
+C:\Workdir\MyApps\Ranorex\Solutions\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.pdb
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.rxtmg
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.rxtst
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.exe.config
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.xml
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.exe
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\TwoSimpleThings.pdb
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.AssemblyReference.cache
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.CoreCompileInputs.cache
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.csproj.CopyComplete
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.exe
+C:\Workdir\MyApps\Ranorex\RanorexStudio Projects\zz_rx_tst_twosimplethings\TwoSimpleThings\obj\x86\Debug\TwoSimpleThings.pdb

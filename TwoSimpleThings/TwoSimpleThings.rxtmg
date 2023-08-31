@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TwoSimpleThings"
+      id="d6c6efa7-e49c-4eb3-a4a5-8a3fe5f37cef"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TwoSimpleThings"
+      id="d6c6efa7-e49c-4eb3-a4a5-8a3fe5f37cef"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
