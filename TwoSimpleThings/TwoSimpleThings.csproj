@@ -211,6 +211,9 @@
       <id>32c3c7a0-bfe7-42ab-a047-e9cd86a1e80f</id>
       <recordtableid>212e3491-20e4-406e-939a-4b3a4b0bc473</recordtableid>
     </None>
+    <None Include="testverslag2txt.txt">
+      <id>d38c8d29-3bb1-4596-9c3b-e7594599f65a</id>
+    </None>
     <None Include="TwoSimpleThingsRepository.rximg">
       <BoundTo>25fa4ebe-2910-4813-92c7-db38e689f03b</BoundTo>
       <DependentUpon>TwoSimpleThingsRepository.rxrep</DependentUpon>

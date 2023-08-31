@@ -4,6 +4,45 @@
         <name>TwoSimpleThings</name>
     </assembly>
     <members>
+        <member name="T:TwoSimpleThings.Pauze">
+             <summary>
+            The Pauze recording.
+             </summary>
+        </member>
+        <member name="F:TwoSimpleThings.Pauze.repo">
+            <summary>
+            Holds an instance of the TwoSimpleThingsRepository repository.
+            </summary>
+        </member>
+        <member name="M:TwoSimpleThings.Pauze.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TwoSimpleThings.Pauze.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TwoSimpleThings.Pauze.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TwoSimpleThings.Pauze.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TwoSimpleThings.Pauze.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TwoSimpleThings.Pauze.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:TwoSimpleThings.RecordingsOpleidingsAanbod.codeCollectionKuLeuvenOpleidingen">
             <summary>
             Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
